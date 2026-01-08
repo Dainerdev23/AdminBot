@@ -1,39 +1,49 @@
-# 🤖 AdminBot: Gestión de Asistencia y Pagos con IA
+# 🤖 ¿Qué es AdminBot?
 
-AdminBot es una **aplicación web integral** diseñada para centros educativos. Permite el registro de asistencia y el control de pagos de estudiantes, automatizando la comunicación con los padres de familia mediante alertas de **WhatsApp en tiempo real**.
-
-Este proyecto destaca por el uso estratégico de **Inteligencia Artificial** (ChatGPT, GitHub Copilot, Codeium) para optimizar el ciclo de desarrollo.
+AdminBot es un sistema administrativo inteligente diseñado para instituciones educativas. Su objetivo es centralizar y automatizar la gestión de estudiantes, asistencia y pagos, facilitando el control administrativo y mejorando la comunicación con padres o acudientes mediante notificaciones automáticas por WhatsApp.
 
 ---
 
-## ✨ Características Principales
+## 🎯 ¿Qué problema soluciona?
 
-* **Registro de Asistencia:** Control diario de ingresos y faltas de los estudiantes.
-* **Gestión de Pagos:** Monitoreo detallado de mensualidades y saldos pendientes.
-* **Alertas Automáticas:** Envío inteligente de mensajes vía WhatsApp ante inasistencias o deudas.
-* **Dashboard Interactivo:** Interfaz moderna y amigable para la administración de datos.
-* **Arquitectura Robusta:** API REST propia conectada a una base de datos SQL.
+Muchas instituciones educativas gestionan la asistencia y los pagos de forma manual o con herramientas poco integradas, lo que genera errores, pérdida de información y retrasos en la comunicación con los padres.
+
+AdminBot soluciona este problema al automatizar estos procesos, reducir la carga administrativa y garantizar que la información sea clara, actualizada y accesible en tiempo real.
 
 ---
 
-## 🛠️ Desarrollo con IA
-El desarrollo de este bot se apoyó en herramientas avanzadas de IA para garantizar un código eficiente y escalable:
-* **ChatGPT:** Para lógica de negocio y arquitectura.
-* **GitHub Copilot:** Para autocompletado de código en tiempo real.
-* **Codeium:** Para optimización y refactorización.
+## 🔄 Flujo del sistema
+
+1. El administrador registra a los estudiantes en el sistema.
+2. Se registra diariamente la asistencia.
+3. El sistema almacena la información en la base de datos.
+4. Se valida el estado de los pagos.
+5. El sistema detecta automáticamente:
+   - Faltas de asistencia.
+   - Pagos pendientes (mora).
+6. Se envían alertas automáticas por WhatsApp a los padres o acudientes.
+7. El administrador visualiza toda la información desde el panel de control.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
-* **Frontend:** Interfaz web interactiva.
-* **Backend:** API REST propia.
-* **Base de Datos:** SQL.
-* **Integraciones:** WhatsApp API para notificaciones.
+## ⚙️ Funcionalidades esperadas
+
+- Registro y gestión de estudiantes.
+- Registro y control de asistencia.
+- Registro y seguimiento de pagos.
+- Detección automática de faltas.
+- Detección de pagos pendientes.
+- Envío automático de notificaciones por WhatsApp.
+- Panel administrativo para consulta y control de la información.
 
 ---
 
-## 📋 Requisitos e Instalación
+## ✅ ¿Cuándo se considera terminado?
 
+AdminBot se considera terminado cuando:
 
-
-**AdminBot** - Optimizando la gestión escolar con tecnología e inteligencia.
+- Permite registrar estudiantes, asistencia y pagos sin errores.
+- Detecta correctamente faltas y pagos en mora.
+- Envía notificaciones automáticas por WhatsApp de forma confiable.
+- La información se guarda y consulta correctamente desde la base de datos.
+- El sistema puede ser utilizado por una institución educativa sin necesidad de procesos manuales adicionales.
